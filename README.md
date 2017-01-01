@@ -7,4 +7,4 @@
 
 ## Example URL:
 
-* http://test-project/api/users
+* http://slim-basic-project/api/users
