@@ -52,7 +52,7 @@ $app->post('/api/users', function (Request $request, Response $response) {
     $stmt->bind_param("sss", $firstName, $lastName, $footballTeam);
 
     $firstName = $request->getParsedBody()['firstName'];
-    $lastName = $request->getParsedBody()['secondName'];
+    $lastName = $request->getParsedBody()['lastName'];
     $footballTeam = $request->getParsedBody()['footballTeam'];
 
     $stmt->execute();
